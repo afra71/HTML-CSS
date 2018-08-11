@@ -1,0 +1,142 @@
+div.background {
+    background: url(klematis.jpg) repeat;
+  opacity:0.9;
+    border: 2px solid  ;
+}
+ 
+div.transbox {
+    margin: 30px;
+    background-color: #99ccff;
+    border: 1px solid  ;
+    opacity: 1;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    padding:10px;
+    font-weight: bold;
+    color: #000000;
+}
+#img{ 
+        width:100%;
+        position:absolute;
+        top:0px;
+        left:0px;
+        
+        z-index:0;
+      }
+#img2{
+  width:30%;
+  
+  position:absolute;
+  left:;
+  top:1500px;
+  z-index:0;
+
+}
+h1{
+        color:white;
+        font-family: 'Amatic SC', cursive;
+        font-size:90px;
+        font-style:normal;
+        position:absolute;
+        top:0px;
+        left:100px;
+        z-index:2;}
+
+
+ul {position: sticky;
+    top: 20px
+      ;
+   
+    z-index:5;}
+
+
+li {
+    float: right;
+}
+
+li a {
+    
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333399;
+}
+
+  section{
+    color:white ;
+    
+    text-indent: 15px;
+    font-family: 'Amatic SC', cursive;
+    font-size:30px;
+    position:absolute;
+    margin:5px;
+    padding:5px;
+   
+    left:20px;
+     top:250px;
+     z-index:4;}
+
+section1{text-indent: 15px;
+  color:rgb(0, 102, 204);
+  width:80%;
+  font-family:'Overpass', sans-serif;;
+  position:absolute;
+  left:00px;
+  
+  border:10px dashed rgb(230, 240, 255);
+  padding:10px;
+  top:1100px;
+  z-index:4;
+  
+}
+#construction{
+  width:400px;
+  margin:15px 0px 10px 6px;
+ 
+}
+  section2{text-indent: 15px;
+    width:50%;
+     color: rgb(68, 102, 0);
+    left:320px;
+     position:absolute;
+     top:1500px;
+    padding:30px;
+     border-width:5px;  
+    border-style:double;
+    z-index:4;
+} 
+section3{
+  font-family: 'Merienda', cursive;
+  text-indent: 5px; 
+  text-align:centre;
+  width:70%;
+  height:px;
+  border-width:2px;  
+    border-style:dashed;
+  padding:50px;
+  margin-bottom:100px;
+left:180px;
+   position:absolute;
+     top:2200px;
+   
+     z-index:4;
+}
+section4{
+  font-family: 'Indie Flower', cursive;
+  color:#000066;
+  width:80%;
+  margin-bottom:200px;
+  left:300px;
+  position:absolute;
+  
+  top:2900px;
+  z-index:5;
+  
+}
+tr:hover {background-color: #f5f5f5;}
